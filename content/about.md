@@ -14,6 +14,6 @@ Our team does all the work for you, they browse the internet for qualitative con
 
 Our project is [100% available through git](https://github.com/coDesign/blog) and 100% open to thoughtful Pull Requests. Also, did I mention the fact that Will Anderson, our Chief Curator happens to have a unique accent he'd be more than happy to tickle your ears to through a weekly podcast that highlights all the curations for the past week?
 
-P.S- We're looking for a co-host for the weekly podcast. If you're interested, contact us via [Telegram](https://t.me/thecodesignpub).
+P.S- We're looking for a Co-Host for the weekly podcast and a Community Manager in order to keep all of you who follow our social media accounts up-to-date. If you're interested, contact us via [Telegram](https://t.me/thecodesignpub).
 
 P.P.S- Want to submit a link for our team's reviewal? Head over to- oh, the number of times we've mentioned Telegram has exceeded the number of times a normal person would mention anything, really. You know where to find us :)
