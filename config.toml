@@ -1,13 +1,13 @@
-baseURL = "https://blog.skycoin.net/"
+baseURL = "https://thecodesign.io"
 languageCode = "en-us"
-title = "Skycoin Blog"
+title = "The coDesign Publication"
 defaultContentLanguage = "en"
 
-googleAnalytics = "UA-105234182-1"
+#googleAnalytics = ""
 #disqusShortname = ""
 
 # hugo-xmin specific variables
-theme = "skycoin"
+theme = "thecodesigntheme"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -36,147 +36,42 @@ pygmentsStyle = "murphy"
     url = "/tags/"
     weight = 3
 
-[[menu.footer]]
-  name = "skycoin.net"
-  url = "https://www.skycoin.net/"
-  weight = 1
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+    weight = 4
 
 [[menu.footer]]
   name = "Github"
-  url = "https://github.com/skycoin"
-  weight = 2
+  url = "https://github.com/coDesign"
+  weight = 1
 
 [[menu.footer]]
   name = "Twitter"
-  url = "https://twitter.com/skycoinproject"
-  weight = 3
+  url = "https://twitter.com/thecodesignpub"
+  weight = 2
 
 [[menu.footer]]
   name = "Reddit"
-  url = "https://reddit.com/r/SkycoinProject"
-  weight = 4
+  url = "https://reddit.com/r/thecodesignpub"
+  weight = 3
 
 [[menu.footer]]
   name = "Telegram"
-  url = "https://t.me/Skycoin"
-  weight = 5
+  url = "https://t.me/thecodesignpub"
+  weight = 4
 
-[[menu.footer]]
-  name = "Blockchain Explorer"
-  url = "https://explorer.skycoin.net/"
-  weight = 6
 
 [author]
-  name = "Skycoin"
+  name = "coDesign"
 
 [params]
-  keywords = "skycoin"
+  keywords = "coDesign"
   rss = "/index.xml"
-  telegram = "https://t.me/Skycoin"
-  description = "Skycoin Project Updates"
-  email = ""
-  github = "skycoin"
-  twitter = "skycoinproject"
-  twitterAnalytics = "ny03t"
-
-[Languages]
-[Languages.en]
-  weight = -1
-  title = "Skycoin Blog"
-  languageName = "English"
-
-[Languages.zh]
-  weight = 1
-  title = "天空币博客"
-  hasCJKLanguage = true
-  languageName = "中文"
-
-[Languages.ru]
-  weight = 2
-  title = "Skycoin Блог"
-  languageName = "Русский"
-
-[Languages.ko]
-  weight = 3
-  title = "Skycoin 블로그"
-  languageName = "한국어"
-
-[Languages.es]
-    weight = 4
-    title = "Skycoin Blog"
-    languageName = "Español"
-
-[Languages.de]
-    weight = 5
-    title = "Skycoin Blog"
-    languageName = "Deutsch"
-
-[Languages.ja]
-    weight = 6
-    title = "Skycoin Blog"
-    languageName = "日本語"
-
-[Languages.el]
-    weight = 7
-    title = "Skycoin Blog"
-    languageName = "Ελληνικά"
-
-[Languages.fr]
-    weight = 8
-    title = "Skycoin Blog"
-    languageName = "Français"
-
-[Languages.pt]
-    weight = 9
-    title = "Skycoin Blog"
-    languageName = "Português"
-
-[Languages.it]
-    weight = 10
-    title = "Skycoin Blog"
-    languageName = "Italiano"
-
-[[menu.languages]]
-  name = "English"
-  weight = -1
-  url = "/"
-[[menu.languages]]
-  name = "中文"
-  weight = 1
-  url = "/zh/"
-[[menu.languages]]
-  name = "Русский"
-  weight = 2
-  url = "/ru/"
-[[menu.languages]]
-  name = "한국어"
-  weight = 3
-  url = "/ko/"
-[[menu.languages]]
-  name = "Español"
-  weight = 4
-  url = "/es/"
-[[menu.languages]]
-  name = "Deutsch"
-  weight = 5
-  url = "/de/"
-[[menu.languages]]
-  name = "日本語"
-  weight = 6
-  url = "/ja/"
-[[menu.languages]]
-  name = "Ελληνικά"
-  weight = 7
-  url = "/el/"
-[[menu.languages]]
-  name = "Français"
-  weight = 8
-  url = "/fr/"
-[[menu.languages]]
-  name = "Português"
-  weight = 9
-  url = "/pt/"
-[[menu.languages]]
-  name = "Italiano"
-  weight = 10
-  url = "/it/"
+  telegram = "https://t.me/thecodesignpub"
+  description = "Separating the signal from the noise."
+  email = "thecodesignpub@gmail.com"
+  github = "coDesign"
+  twitter = "thecodesignpub"
+  #twitterAnalytics = ""

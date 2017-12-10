@@ -1,0 +1,8 @@
+name = "coDesign"
+description = "Curating the best code+design articles."
+homepage = "https://thecodesign.io"
+min_version = "0.1"
+
+[author]
+  name = "coDesign"
+  homepage = "https://thecodesign.io"
