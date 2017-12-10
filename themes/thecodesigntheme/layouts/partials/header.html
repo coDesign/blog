@@ -22,7 +22,7 @@
   <header class="header">
     <div class="header__wrapper">
       <div class="header__topnav">
-        <a href="https://t.me/joinchat/FdI4v0Q1VtZIi8baIs5S-A" class="header__link">&larr; Join the discussion</a>
+        <a href="{{ .Site.Params.rss }}" class="header__link">&larr; Subscribe(RSS)</a>
         <div class="js-dropdown header-dropdown">
           {{ $currentLang := .Site.Language.LanguageName }}
           <div class="js-dropdown-current header-dropdown__current">{{ $currentLang }}</div>
@@ -32,7 +32,7 @@
             {{ end }}
           </div>
         </div>
-        <a href="{{ .Site.Params.rss }}" target="_blank" class="btn btn--pill btn--outline btn--blue header__btn">Subscribe (RSS)</a>
+        <a href="https://t.me/joinchat/FdI4v0Q1VtZIi8baIs5S-A" target="_blank" class="btn btn--pill btn--outline btn--blue header__btn">Join the discussion</a>
       </div>
 
       <a href="/">
