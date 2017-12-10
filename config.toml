@@ -53,8 +53,8 @@ pygmentsStyle = "murphy"
   weight = 2
 
 [[menu.footer]]
-  name = "Reddit"
-  url = "https://reddit.com/r/thecodesignpub"
+  name = "Google+"
+  url = "https://plus.google.com/u/1/b/104481586231146729592/104481586231146729592"
   weight = 3
 
 [[menu.footer]]
