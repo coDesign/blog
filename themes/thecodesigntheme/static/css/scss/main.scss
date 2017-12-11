@@ -24,3 +24,24 @@
 @import "post";
 @import "list";
 @import "notfound";
+
+//on-team
+
+.person {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0.5rem;
+  box-shadow: $shadow1;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+  &:active {
+    transform: scale(1.125);
+  }
+
+  &--smaller { height: 4rem; width: 4rem; }
+}
