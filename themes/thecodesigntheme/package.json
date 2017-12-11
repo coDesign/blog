@@ -1,7 +1,7 @@
 {
-  "name": "skycoin",
+  "name": "coDesign",
   "version": "1.0.0",
-  "description": "Foundations for the new internet · Skycoin",
+  "description": "Separating the signal from the noise · coDesign",
   "main": "index.js",
   "license": "UNLICENSED",
   "scripts": {
