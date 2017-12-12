@@ -20,7 +20,7 @@ Our target audience is you, the developers and designers that make up for this l
 
 For starters, we shifted all of our site from Ghost to WordPress to Ghost to Grav CMS to Jekyll to WordPress to Hugo (a static site generator written in Golang)- quite a journey, I know. Hugo is fast, reliable, constantly in development and completely Open Source! We're now hosted on Netlify.
 
-In addition to the updates on the code side of things, we now have an updated look as well. We have new icons and new banners throughout. Also, in addition to Deadmanx XD joining our Design team, CallMeJ has joined us as a developer.
+In addition to the updates on the code side of things, we now have an updated look as well. We have new icons and new banners throughout. Also, in addition to Deadmanx XD joining our Design team, CallMeJ and DevanshBajaj have joined us as a developers as well.
 
 We now have a "coDesign Dev" channel, which documents all the changes that are being made to the codebase, which, by the way, anyone and everyone reading this can send a PR to!
 
