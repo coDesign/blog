@@ -11,6 +11,7 @@ tags: [
 						"Netlify",
 						"SSG",
 ]
+draft: true
 ---
 
 Hello there, readers. Welcome to "Development Updates," a series that keeps you folks up-to-date with the progress we're constantly making behind the scenes. Our target audience is you, the developers and designers that make up for this lovely community, which is why being 100% transparent (on top of Open Sourcing everything on our domain) felt essential. As we haven't even launched our product properly yet (consider this post to be a "soft launch"), there's a lot of stuff on the site right now that you're going to see change.
