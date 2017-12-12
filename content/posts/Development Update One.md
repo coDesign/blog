@@ -18,7 +18,7 @@ Hello there, readers. Welcome to "Development Updates," a series that keeps you 
 
 Our target audience is you, the developers and designers that make up for this lovely community, which is why being 100% transparent (on top of Open Sourcing everything on our domain) felt essential. As we haven't even launched our product properly yet (consider this post to be a "soft launch"), there's a lot of stuff on the site right now that you're going to see change.
 
-For starters, we shifted all of our site from Ghost to WordPress to Ghost to Grav CMS to Jekyll to WordPress to Hugo (a static site generator written in Golang)- quite a journey, I know. Hugo is fast, reliable, constantly in development and completely Open Source!
+For starters, we shifted all of our site from Ghost to WordPress to Ghost to Grav CMS to Jekyll to WordPress to Hugo (a static site generator written in Golang)- quite a journey, I know. Hugo is fast, reliable, constantly in development and completely Open Source! We're now hosted on Netlify.
 
 In addition to the updates on the code side of things, we now have an updated look as well. We have new icons and new banners throughout. Also, in addition to Deadmanx XD joining our Design team, CallMeJ has joined us as a developer.
 
@@ -46,6 +46,6 @@ At the end of every Development Update, we'll be keeping one section aside for a
 
 8. Need to come up with an official banner for social media.
 
-9. Need to add a list of the most popular tags to the left of the posts. 
+9. Need to add a list of the most popular tags to the left of the posts.
 
 Repo link-> GitHub.com/coDesign/blog
