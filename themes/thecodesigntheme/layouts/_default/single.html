@@ -14,7 +14,11 @@
       {{ range $i := (slice "categories" "tags") }}
         {{ with ($.Param $i) }}
           {{ range $k := . }}
-            <a class="meta__link" href="{{ relLangURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
+            {{ if (eq $i "categories") }}
+            <a class="meta__link meta__cat" href="{{ relLangURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
+            {{ else }}
+            <a class="meta__link meta__tag" href="{{ relLangURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}

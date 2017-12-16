@@ -3,7 +3,7 @@
   padding-top: 2.75rem;
 
   &__title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: $black;
     margin-top: 1rem;
     margin-bottom: 2.75rem;
@@ -16,39 +16,50 @@
   }
 
   &__item {
+    white-space: nowrap;
+    width: 100%;
     border-bottom: solid 2px $light-gray;
     padding-bottom: 1.75rem;
     padding-top: 1.75rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &__feat {
-      
-    }
+    // justify-content: space-between;
+    align-items: left;
   }
 
   &__link {
-    font-size: 1.0625rem;
+    font-size: 1.3625rem;
+    vertical-align: top;
     &__feat {
       font-size: 2rem;
     }
   }
 
   &__meta {
-    font-size: 0.9375rem;
+    font-size: 1.0475rem;
     color: $cool-gray;
     white-space: nowrap;
-    padding-left: 0.5rem;
+    display: block;
+    margin-top: 0.25rem;
     &__feat {
-      font-size: 1.5rem;
-      line-height: 2.5rem;
+      color: $cool-gray;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
     }
   }
 
   &__img {
-    width: 100px;
     &__feat {
       width: 100%;
     }
+    img {
+      width: 25%
+    }
+  }
+
+  &__text {
+    white-space: normal;
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0.5rem;
   }
 }

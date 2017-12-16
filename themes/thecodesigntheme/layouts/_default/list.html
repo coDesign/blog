@@ -18,12 +18,14 @@
     {{ else }}
       <li class="list__item">
         {{ if (isset .Params "featuredimage") }}
-        <a href="{{ .URL | relLangURL }}">
-          <img class="list__img" src="/post_images/{{ .Params.featuredimage }}">
+        <a class="list__img" href="{{ .URL | relLangURL }}">
+          <img src="/post_images/{{ .Params.featuredimage }}">
         </a>
         {{ end }}
-        <a class="list__link" href="{{ .URL | relLangURL }}">{{ .Title }}</a>
-        <span class="list__meta">{{ .Date.Format "Jan 2 2006" }}</span>
+        <div class="list__text">
+          <a class="list__link" href="{{ .URL | relLangURL }}">{{ .Title }}</a>
+          <span class="list__meta">{{ .Date.Format "Jan 2 2006" }}</span>
+        </div>
       </li>
     {{ end }}
     {{ end }}

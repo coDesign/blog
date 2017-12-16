@@ -83,12 +83,6 @@
     padding-left: 0.5rem;
     position: relative;
 
-    &:before {
-      position: absolute;
-      content:"·";
-      left: 0;
-    }
-
     @media (max-width: (#{$breakpoint-sm - 1px})){
       &:first-of-type {
         padding-left: 0;
@@ -96,6 +90,18 @@
           content: "";
         }
       }
+    }
+  }
+
+  &__cat {
+    color: #494949;
+  }
+
+  &__tag {
+    &:before {
+      position: absolute;
+      content:"·";
+      left: 0;
     }
   }
 }

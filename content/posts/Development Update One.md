@@ -31,22 +31,24 @@ At the end of every Development Update, we'll be keeping one section aside for a
 
 #ToDo
 
-1. Need to add stuff to the Drop-down
+- ~~Need to add stuff to the Drop-down~~
 
-2. Need to fix Mobile layout, centre the logo and align the rest of the stuff.
+- ~~Need to fix Mobile layout, centre the logo and align the rest of the stuff.~~
 
-3. Need to add featured images to the left of articles.
+- ~~Need to add featured images to the left of articles.~~
 
-4. Need to add one big hero post (latest post at the top) that has a large image with a heading and description.
+- ~~Need to add one big hero post (latest post at the top) that has a large image with a heading and description.~~
 
-5. Need to fix images not showing on the /our-team page. Code stylized at min.scss
+- Need to fix images not showing on the /our-team page. Code stylized at min.scss
 
-6. Need to add a comment section powered by Disqus to ONLY the posts that have "Discuss" in their title and their categories array.
+- Need to add a comment section powered by Disqus to ONLY the posts that have "Discuss" in their title and their categories array.
 
-7. Need to come up with an easy-to-recognise, non-complex, unique, preferably freeform icon which will also serve as our brand icon.
+- ~~Need to come up with an easy-to-recognise, non-complex, unique, preferably freeform icon which will also serve as our brand icon.~~
 
-8. Need to come up with an official banner for social media.
+- Need to come up with an official banner for social media.
 
-9. Need to add a list of the most popular tags to the left of the posts.
+- ??? Need to add a list of the most popular tags to the left of the posts.
 
-Repo link-> GitHub.com/coDesign/blog
+- Restructure post list
+
+[Go to repo](https://github.com/codesign/blog)
