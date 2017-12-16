@@ -12,6 +12,7 @@ tags: [
 						"SSG",
 ]
 draft: false
+featuredimage: 1.jpg
 ---
 
 Hello there, readers. Welcome to "Development Updates," a series that keeps you folks up-to-date with the progress we're constantly making behind the scenes.

@@ -1,18 +1,33 @@
 {{ partial "header.html" . }}
 
 <main class="list">
-    {{ if .Title }}
-      <h1 class="list__title">{{ .Title }}</h1>
-    {{ end }}
+  {{ if .Title }}
+    <h1 class="list__title">{{ .Title }}</h1>
+  {{ end }}
 
-    <ul class="list__list">
-      {{ range (where .Data.Pages "Section" "!=" "") }}
-        <li class="list__item">
-          <a class="list__link" href="{{ .URL | relLangURL }}">{{ .Title }}</a>
-          <span class="list__meta">{{ .Date.Format "Jan 2 2006" }}</span>
-        </li>
-      {{ end }}
-    </ul>
-  </main>
+  <ul class="list__list">
+    {{ range $index, $element := (where .Data.Pages "Section" "!=" "") }}
+    {{ if (eq $index 0) }}
+      <li class="list__item__feat">
+        <a href="{{ .URL | relLangURL }}">
+          <img class="list__img__feat" src="/post_images/{{ .Params.featuredimage }}">
+        </a>
+        <a class="list__link__feat" href="{{ .URL | relLangURL }}">{{ .Title }}</a><br/>
+        <span class="list__meta__feat">{{ .Date.Format "Jan 2 2006" }}</span>
+      </li>
+    {{ else }}
+      <li class="list__item">
+        {{ if (isset .Params "featuredimage") }}
+        <a href="{{ .URL | relLangURL }}">
+          <img class="list__img" src="/post_images/{{ .Params.featuredimage }}">
+        </a>
+        {{ end }}
+        <a class="list__link" href="{{ .URL | relLangURL }}">{{ .Title }}</a>
+        <span class="list__meta">{{ .Date.Format "Jan 2 2006" }}</span>
+      </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</main>
 
   {{ partial "footer.html" . }}

@@ -22,10 +22,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__feat {
+      
+    }
   }
 
   &__link {
     font-size: 1.0625rem;
+    &__feat {
+      font-size: 2rem;
+    }
   }
 
   &__meta {
@@ -33,5 +39,16 @@
     color: $cool-gray;
     white-space: nowrap;
     padding-left: 0.5rem;
+    &__feat {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  &__img {
+    width: 100px;
+    &__feat {
+      width: 100%;
+    }
   }
 }

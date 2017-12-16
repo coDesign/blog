@@ -23,7 +23,7 @@
     <div class="header__wrapper">
       <div class="header__topnav">
         <a href="{{ .Site.Params.rss }}" class="header__link">&larr; Subscribe(RSS)</a>
-        <div class="js-dropdown header-dropdown">
+<!--         <div class="js-dropdown header-dropdown">
           {{ $currentLang := .Site.Language.LanguageName }}
           <div class="js-dropdown-current header-dropdown__current">{{ $currentLang }}</div>
           <div class="js-dropdown-list header-dropdown__list">
@@ -31,11 +31,11 @@
               <a class="js-dropdown-item header-dropdown__item {{ if eq $currentLang .Name }} header-dropdown__item_active {{ end }}" href="{{ .URL }}">{{ string .Name }}</a>
             {{ end }}
           </div>
-        </div>
+        </div> -->
         <a href="https://t.me/joinchat/FdI4v0Q1VtZIi8baIs5S-A" target="_blank" class="btn btn--pill btn--outline btn--blue header__btn">Join the discussion</a>
       </div>
 
-      <a href="/">
+      <a class="header__logo" href="/">
         <img class="logo" alt="coDesign" src="{{ "/images/cdlogo.svg" | relURL }}" />
       </a>
 

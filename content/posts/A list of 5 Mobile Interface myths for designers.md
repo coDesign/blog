@@ -9,6 +9,7 @@ tags: [
 								"UI",
 								"Mobile Interface",
 ]
+featuredimage: 1.jpg
 ---
 A list of 5 Mobile Interface myths for designers
 

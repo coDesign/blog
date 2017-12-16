@@ -1,0 +1,13 @@
+{
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": "/themes/thecodesigntheme/static/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList":[
+        "public/css/scss/**"
+    ]
+}
