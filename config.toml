@@ -53,14 +53,9 @@ pygmentsStyle = "murphy"
   weight = 2
 
 [[menu.footer]]
-  name = "Google+"
-  url = "https://plus.google.com/u/1/b/104481586231146729592/104481586231146729592"
-  weight = 3
-
-[[menu.footer]]
   name = "Telegram"
   url = "https://t.me/thecodesignpub"
-  weight = 4
+  weight = 3
 
 
 [author]
