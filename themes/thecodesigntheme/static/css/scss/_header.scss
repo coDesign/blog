@@ -86,12 +86,10 @@
 
   &__wrapper {
     @include container($container-width-base);
-    padding-top: 2.25rem;
     padding-bottom: 2.25rem;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    min-height: 16rem;
   }
 
   &__topnav {
