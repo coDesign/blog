@@ -43,7 +43,7 @@ pygmentsStyle = "murphy"
     weight = 4
 
 [[menu.footer]]
-  name = "Github"
+  name = "GitHub"
   url = "https://github.com/coDesign"
   weight = 1
 

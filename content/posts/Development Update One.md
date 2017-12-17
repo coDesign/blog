@@ -51,4 +51,4 @@ At the end of every Development Update, we'll be keeping one section aside for a
 
 - ~~Restructure post list~~
 
-<a href="https://github.com/codesign/blog"
+<a href="https://github.com/codesign/blog" target="_blank">Go to repo <i class="fas fa-arrow-right"></i></a>

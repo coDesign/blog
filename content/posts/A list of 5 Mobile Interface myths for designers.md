@@ -9,6 +9,7 @@ tags: [
 								"UI",
 								"Mobile Interface",
 ]
+publication: Smashing Magazine
 featuredimage: 1.jpg
 ---
 A list of 5 Mobile Interface myths for designers
