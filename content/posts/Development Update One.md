@@ -49,6 +49,6 @@ At the end of every Development Update, we'll be keeping one section aside for a
 
 - ??? Need to add a list of the most popular tags to the left of the posts.
 
-- Restructure post list
+- ~~Restructure post list~~
 
-[Go to repo](https://github.com/codesign/blog)
+<a href="https://github.com/codesign/blog"
